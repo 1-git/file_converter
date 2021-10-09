@@ -32,3 +32,9 @@ or
 ```
 docker-compose run app php ./application.php silence1.xml output.json --chapter-silence-ms=3000 --part-silence-ms=1000 --silence-duration-min=10
 ```
+
+5. Run unit tests
+
+```
+docker-compose run app php ./vendor/bin/simple-phpunit
+```

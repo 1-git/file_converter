@@ -6,3 +6,5 @@
 /files/output/
 !/files/output/.gitkeep
 
+.phpunit.result.cache
+
