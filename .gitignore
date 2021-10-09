@@ -1,0 +1,8 @@
+
+###> symfony/framework-bundle ###
+/vendor/
+/files/input/
+!/files/input/.gitkeep
+/files/output/
+!/files/output/.gitkeep
+

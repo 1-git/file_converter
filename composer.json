@@ -1,0 +1,21 @@
+{
+  "name": "alex/test_task",
+  "description": "Test project",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "TestTask\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alex N",
+      "email": "test@test.test"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "symfony/console": "^5.3"
+  }
+}
